@@ -120,6 +120,8 @@
   }
 
   .chips { display: flex; gap: 8px; flex-wrap: wrap; }
+  a.chip { text-decoration: none; }
+  a.chip:hover { border-color: var(--clay); color: var(--ink); }
   .chip {
     font-size: clamp(0.68rem, 1.2vw, 0.78rem);
     padding: 5px 11px;
@@ -189,10 +191,10 @@
       </div>
     </div>
     <div class="chips">
-      <span class="chip">Vida</span>
-      <span class="chip">Hogar</span>
-      <span class="chip">Autónomos</span>
-      <span class="chip">Decesos</span>
+      <a class="chip" href="productos.html#vida">Vida</a>
+      <a class="chip" href="productos.html#hogar">Hogar</a>
+      <a class="chip" href="productos.html#autonomos">Autónomos</a>
+      <a class="chip" href="productos.html#decesos">Decesos</a>
     </div>
   </div>
   <div class="visual">
